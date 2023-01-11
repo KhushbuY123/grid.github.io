@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+     box-sizing: border-box;
+}
+body{
+    font-family:sans-serif;
+}
+.container{
+    max-width: 1400px;
+    background: lightblue;
+    margin:100px auto;
+    display: grid;
+    grid-template-columns:repeat(3,200px);
+    grid-auto-flow: dense;
+    height: 500px;
+    /* column-gap: 10px;
+    row-gap: 10px; */
+    gap: 10px 10px;
+    grid-auto-rows: 100px;
+   
+    /* justify-items: center;
+    align-items: center; */
+    /* place-items: end start; */
+    /* justify-content: space-between;
+    align-content: space-around; */
+    place-content: center space-around;
+    /* implicit----chrome decide
+    explicit ---we decide*/
+}
+/* """""""""""""""""""""'grid .container"""""""""
+ 1. grid-template-cloumn:--- to divide coulmn in multiple parts
+""""""""""""""""""grid items""""""""""""""""""""""" */
+.item{
+    
+    color: white;
+    padding: 10px;
+    border: 2px solid black;
+    
+}
+.item1{
+    background: #353F3E;
+}
+.item2{
+    background: #191C27;
+}
+.item3{
+    background:  #212122;
+}
+.item4{
+    background:#160D08;
+}
+.item5{
+    background:  #000302;
+}
+.item6{
+    background:#362B32;
+}
+.item7{
+    background:#1F201F;
+}
+.item8{
+    background:  #0A0B0B;
+}
+.item9{
+    background: #004242;
+}
+.item10{
+    background: #354230;
+}
+.item11{
+    background: #120321 ;
+}
+.item12{
+    background: #1A2228;
+}
+
